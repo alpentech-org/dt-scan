@@ -1,0 +1,33 @@
+#filter-report {
+  border: solid black 1px;
+  padding: 6px;
+  margin-top: 20px;
+}
+
+#filter-report div {
+  max-height: 64px;
+  overflow-y: auto;
+}
+
+.file-span {
+
+}
+.link-span {
+  color: blue;
+}
+
+.folder-span {
+  color: black;
+  font-weight: bold;
+  border: solid 1px black;
+}
+
+.folder-span:hover {
+  cursor: pointer;
+}
+
+/* CONFIG */
+#table-container {
+  height: 50%;
+  width: 800px;
+}
